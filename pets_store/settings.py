@@ -126,6 +126,10 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
+# config/settings.py
+MEDIA_URL = "/archivos/"
+MEDIA_ROOT = BASE_DIR / "archivos"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
